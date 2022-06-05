@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Publisher" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Publisher" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Publisher" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include/curl" />
+		</Compiler>
+		<Linker>
+			<Add library="lib/libcurl.so" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="include/base64.h" />
+		<Unit filename="include/curl/curl.h" />
+		<Unit filename="include/curl/curlver.h" />
+		<Unit filename="include/curl/easy.h" />
+		<Unit filename="include/curl/header.h" />
+		<Unit filename="include/curl/mprintf.h" />
+		<Unit filename="include/curl/multi.h" />
+		<Unit filename="include/curl/options.h" />
+		<Unit filename="include/curl/stdcheaders.h" />
+		<Unit filename="include/curl/system.h" />
+		<Unit filename="include/curl/typecheck-gcc.h" />
+		<Unit filename="include/curl/urlapi.h" />
+		<Unit filename="include/hmac.h" />
+		<Unit filename="include/memxor.h" />
+		<Unit filename="include/sha256.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/base64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/hmac-sha256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/memxor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sha256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

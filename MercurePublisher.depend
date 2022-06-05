@@ -1,0 +1,144 @@
+# depslib dependency file v1.0
+1652653078 source:/home/bc-linux-ubuntu/C-CPP/MercurePublisher/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	<curl/curl.h>
+	"cencode.h"
+	"cdecode.h"
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"typecheck-gcc.h"
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/curlver.h
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/easy.h
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/multi.h
+	"curl.h"
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/urlapi.h
+	"curl.h"
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/options.h
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/header.h
+
+1652300691 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/curl/typecheck-gcc.h
+
+1599736594 source:/home/bc-linux-ubuntu/C-CPP/MercurePublisher/src/cdecode.c
+	<b64/cdecode.h>
+
+1599736594 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/b64/cdecode.h
+	"ccommon.h"
+	<stddef.h>
+
+1599736594 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/b64/ccommon.h
+
+1599736594 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/b64/cencode.h
+	"ccommon.h"
+	<stddef.h>
+
+1599736594 source:/home/bc-linux-ubuntu/C-CPP/MercurePublisher/src/cencode.c
+	<b64/cencode.h>
+
+1654360834 source:/home/bc-linux-ubuntu/C-CPP/MercurePublisher/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<curl/curl.h>
+	"hmac.h"
+	"base64.h"
+
+1652739956 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/hmac/hmac.h
+	<stddef.h>
+
+1654292286 source:/home/bc-linux-ubuntu/C-CPP/MercurePublisher/src/hmac-sha256.c
+	"hmac.h"
+	"memxor.h"
+	"sha256.h"
+	<string.h>
+
+1652817732 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/hmac/memxor.h
+	<stddef.h>
+
+1652817738 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/hmac/sha256.h
+	<stdio.h>
+	<stdint.h>
+	<openssl/sha.h>
+	"gl_openssl.h"
+	"gl_openssl.h"
+
+1654292308 source:/home/bc-linux-ubuntu/C-CPP/MercurePublisher/src/memxor.c
+	"memxor.h"
+
+1654292342 source:/home/bc-linux-ubuntu/C-CPP/MercurePublisher/src/sha256.c
+	"sha256.h"
+	<stdalign.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"unlocked-io.h"
+
+1653426196 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/l8w8jwt/encode.h
+	"algs.h"
+	"claim.h"
+	"version.h"
+	"retcodes.h"
+	<time.h>
+	<stddef.h>
+
+1653426196 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/l8w8jwt/algs.h
+
+1653426196 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/l8w8jwt/claim.h
+	"version.h"
+	<stdlib.h>
+
+1653426196 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/l8w8jwt/version.h
+
+1653426196 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/l8w8jwt/retcodes.h
+
+1652739956 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/hmac.h
+	<stddef.h>
+
+1654289275 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/base64.h
+
+1654289315 source:/home/bc-linux-ubuntu/C-CPP/MercurePublisher/src/base64.c
+	<string.h>
+	"base64.h"
+
+1652817732 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/memxor.h
+	<stddef.h>
+
+1652817738 /home/bc-linux-ubuntu/C-CPP/MercurePublisher/include/sha256.h
+	<stdio.h>
+	<stdint.h>
+	<openssl/sha.h>
+	"gl_openssl.h"
+	"gl_openssl.h"
+
