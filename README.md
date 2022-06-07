@@ -11,7 +11,7 @@ See: https://mercure.rocks/docs/hub/install
 Personnally i use http://127.0.0.1:3000/.well-known/mercure/ui/
 
 For "Topics to get updates for*" my topic is "http://172.16.0.124:3000/apply"
-Have a look in my C# main, you're free to change it.
+Have a look in my C main, you're free to change it.
 
 # To compile this C project 
 
